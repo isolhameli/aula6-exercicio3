@@ -54,8 +54,8 @@ public class Corrida {
     }
 
     private Double pontuacao(Veiculo veiculo) {
-        return veiculo.getVelocidade() * veiculo.getAceleracao() / (veiculo.getAnguloDeGiro() * veiculo.getPeso()
-                - veiculo.getRodas() * 100);
+        return veiculo.getVelocidade() * veiculo.getAceleracao() / (veiculo.getAnguloDeGiro() * (veiculo.getPeso()
+                - veiculo.getRodas() * 100));
     }
 
     private boolean temEspaco(){

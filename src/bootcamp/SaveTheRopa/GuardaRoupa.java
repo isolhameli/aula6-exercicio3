@@ -10,10 +10,8 @@ public class GuardaRoupa {
     private static Integer contador = 0;
 
     public static Integer guardarVestuarios(List<Vestuario> listaDeVestuario) {
-        Integer auxContador = contador;
         mapaDeRoupas.put(contador, listaDeVestuario);
-        contador++;
-        return auxContador;
+        return contador++;
     }
 
     public static void mostrarVestuarios() {
