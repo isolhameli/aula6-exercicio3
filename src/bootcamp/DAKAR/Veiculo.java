@@ -1,6 +1,6 @@
 package bootcamp.DAKAR;
 
-public class Veiculo {
+public abstract class Veiculo {
 
     private double velocidade;
     private double aceleracao;
@@ -16,6 +16,7 @@ public class Veiculo {
         this.placa = placa;
         this.peso = peso;
         this.rodas = rodas;
+
     }
 
     public double getVelocidade() {
