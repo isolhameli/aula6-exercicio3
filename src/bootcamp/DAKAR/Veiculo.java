@@ -1,8 +1,6 @@
 package bootcamp.DAKAR;
 
-import java.util.Objects;
-
-public abstract class Veiculo {
+public class Veiculo {
 
     private double velocidade;
     private double aceleracao;
